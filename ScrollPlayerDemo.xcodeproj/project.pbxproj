@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90AC522B9AACF0F882740BCC /* libPods-ScrollPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F73C5A6F5C2C878EA9CD64 /* libPods-ScrollPlayerDemo.a */; };
 		C00AE3A01F998D6500DA7023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C00AE39F1F998D6500DA7023 /* AppDelegate.m */; };
 		C00AE3A31F998D6500DA7023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00AE3A21F998D6500DA7023 /* ViewController.m */; };
 		C00AE3A61F998D6500DA7023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00AE3A41F998D6500DA7023 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		C00AE3AE1F998D6500DA7023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00AE3AD1F998D6500DA7023 /* main.m */; };
 		C00AE3B81F998D6500DA7023 /* ScrollPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00AE3B71F998D6500DA7023 /* ScrollPlayerDemoTests.m */; };
 		C00AE3C31F998D6500DA7023 /* ScrollPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00AE3C21F998D6500DA7023 /* ScrollPlayerDemoUITests.m */; };
+		C0A5908E1F999898008738FC /* ZFVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A5908A1F999898008738FC /* ZFVideoModel.m */; };
+		C0A5908F1F999898008738FC /* ZFPVideoResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A5908C1F999898008738FC /* ZFPVideoResolution.m */; };
+		C0A590951F9998B2008738FC /* TJVideoScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A590931F9998B2008738FC /* TJVideoScrollController.m */; };
+		C0A590961F9998B3008738FC /* TJVideoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A590941F9998B2008738FC /* TJVideoScrollView.m */; };
+		C0A590981F99E04C008738FC /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A590971F99A649008738FC /* videoData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40F73C5A6F5C2C878EA9CD64 /* libPods-ScrollPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00AE39B1F998D6500DA7023 /* ScrollPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00AE39E1F998D6500DA7023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C00AE39F1F998D6500DA7023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		C00AE3BE1F998D6500DA7023 /* ScrollPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00AE3C21F998D6500DA7023 /* ScrollPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPlayerDemoUITests.m; sourceTree = "<group>"; };
 		C00AE3C41F998D6500DA7023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A5908A1F999898008738FC /* ZFVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFVideoModel.m; sourceTree = "<group>"; };
+		C0A5908B1F999898008738FC /* ZFVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFVideoModel.h; sourceTree = "<group>"; };
+		C0A5908C1F999898008738FC /* ZFPVideoResolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPVideoResolution.m; sourceTree = "<group>"; };
+		C0A5908D1F999898008738FC /* ZFVideoResolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFVideoResolution.h; sourceTree = "<group>"; };
+		C0A590901F9998B2008738FC /* TJVideoScrollController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TJVideoScrollController.xib; sourceTree = "<group>"; };
+		C0A590911F9998B2008738FC /* TJVideoScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJVideoScrollView.h; sourceTree = "<group>"; };
+		C0A590921F9998B2008738FC /* TJVideoScrollController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJVideoScrollController.h; sourceTree = "<group>"; };
+		C0A590931F9998B2008738FC /* TJVideoScrollController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJVideoScrollController.m; sourceTree = "<group>"; };
+		C0A590941F9998B2008738FC /* TJVideoScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJVideoScrollView.m; sourceTree = "<group>"; };
+		C0A590971F99A649008738FC /* videoData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		F1E858DAB9762F824BC9F646 /* Pods-ScrollPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollPlayerDemo/Pods-ScrollPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F91B4099A16CB42288709039 /* Pods-ScrollPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollPlayerDemo/Pods-ScrollPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AC522B9AACF0F882740BCC /* libPods-ScrollPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFC873DC29C5632242F32336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E858DAB9762F824BC9F646 /* Pods-ScrollPlayerDemo.debug.xcconfig */,
+				F91B4099A16CB42288709039 /* Pods-ScrollPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C00AE3921F998D6500DA7023 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				C00AE3B61F998D6500DA7023 /* ScrollPlayerDemoTests */,
 				C00AE3C11F998D6500DA7023 /* ScrollPlayerDemoUITests */,
 				C00AE39C1F998D6500DA7023 /* Products */,
+				BFC873DC29C5632242F32336 /* Pods */,
+				F25E6E345D374FE9DBC21A62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +136,18 @@
 				C00AE39F1F998D6500DA7023 /* AppDelegate.m */,
 				C00AE3A11F998D6500DA7023 /* ViewController.h */,
 				C00AE3A21F998D6500DA7023 /* ViewController.m */,
+				C0A590921F9998B2008738FC /* TJVideoScrollController.h */,
+				C0A590931F9998B2008738FC /* TJVideoScrollController.m */,
+				C0A590901F9998B2008738FC /* TJVideoScrollController.xib */,
+				C0A590911F9998B2008738FC /* TJVideoScrollView.h */,
+				C0A590941F9998B2008738FC /* TJVideoScrollView.m */,
 				C00AE3A41F998D6500DA7023 /* Main.storyboard */,
+				C0A5908C1F999898008738FC /* ZFPVideoResolution.m */,
+				C0A5908B1F999898008738FC /* ZFVideoModel.h */,
+				C0A5908A1F999898008738FC /* ZFVideoModel.m */,
+				C0A5908D1F999898008738FC /* ZFVideoResolution.h */,
 				C00AE3A71F998D6500DA7023 /* Assets.xcassets */,
+				C0A590971F99A649008738FC /* videoData.json */,
 				C00AE3A91F998D6500DA7023 /* LaunchScreen.storyboard */,
 				C00AE3AC1F998D6500DA7023 /* Info.plist */,
 				C00AE3AD1F998D6500DA7023 /* main.m */,
@@ -132,6 +173,14 @@
 			path = ScrollPlayerDemoUITests;
 			sourceTree = "<group>";
 		};
+		F25E6E345D374FE9DBC21A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F73C5A6F5C2C878EA9CD64 /* libPods-ScrollPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00AE3C71F998D6500DA7023 /* Build configuration list for PBXNativeTarget "ScrollPlayerDemo" */;
 			buildPhases = (
+				B1A919CCCE5ECCB38EC883E3 /* [CP] Check Pods Manifest.lock */,
 				C00AE3971F998D6500DA7023 /* Sources */,
 				C00AE3981F998D6500DA7023 /* Frameworks */,
 				C00AE3991F998D6500DA7023 /* Resources */,
+				45C299A6DD42ED662834D9C9 /* [CP] Embed Pods Frameworks */,
+				CC2067838CD9AD70721F4804 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A590981F99E04C008738FC /* videoData.json in Resources */,
 				C00AE3AB1F998D6500DA7023 /* LaunchScreen.storyboard in Resources */,
 				C00AE3A81F998D6500DA7023 /* Assets.xcassets in Resources */,
 				C00AE3A61F998D6500DA7023 /* Main.storyboard in Resources */,
@@ -260,14 +313,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45C299A6DD42ED662834D9C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollPlayerDemo/Pods-ScrollPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A919CCCE5ECCB38EC883E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2067838CD9AD70721F4804 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScrollPlayerDemo/Pods-ScrollPlayerDemo-resources.sh",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollPlayerDemo/Pods-ScrollPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C00AE3971F998D6500DA7023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C00AE3A31F998D6500DA7023 /* ViewController.m in Sources */,
+				C0A5908E1F999898008738FC /* ZFVideoModel.m in Sources */,
+				C0A590961F9998B3008738FC /* TJVideoScrollView.m in Sources */,
+				C0A590951F9998B2008738FC /* TJVideoScrollController.m in Sources */,
 				C00AE3AE1F998D6500DA7023 /* main.m in Sources */,
 				C00AE3A01F998D6500DA7023 /* AppDelegate.m in Sources */,
+				C0A5908F1F999898008738FC /* ZFPVideoResolution.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +539,13 @@
 		};
 		C00AE3C81F998D6500DA7023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E858DAB9762F824BC9F646 /* Pods-ScrollPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
 				INFOPLIST_FILE = ScrollPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeus.ScrollPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +555,13 @@
 		};
 		C00AE3C91F998D6500DA7023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91B4099A16CB42288709039 /* Pods-ScrollPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J3H3Y24CT;
 				INFOPLIST_FILE = ScrollPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeus.ScrollPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
